@@ -34,7 +34,7 @@ def add_contact():
         email = input('Enter your email: ')
         if is_valid_email(email):
             break
-        print("❌ Invalid email format, try again!")
+        print(" Invalid email format, try again!")
 
     age = int(input('Enter your age: '))
 
